@@ -41,7 +41,7 @@ Os solos identificados na bacia são representados pelas classes dos cambissolo 
 
 ![](img/fig03_solos.png)
 
-A bacia está localizada na Serra do Espinhaço e apresenta um relevo suave ondulado na porção baixa da bacia a ondulado a montanhoso na porção alta da bacia. A elevação varia de 1826 metros na cabeceira bacia, até 709 metros no encontro com o Rio Araçuaí. A declividade predominante está entre valores 0 e 8%, no entanto a porções da bacia com declividade atingindo 45%. O alto e médio da bacia está dentro de uma área de proteção ambiental denominada APA Municipal Felício dos Santos, instituído pela lei 502 de 27/03/03.
+A bacia está localizada na Serra do Espinhaço e apresenta um relevo suave ondulado na porção baixa da bacia a ondulado a montanhoso na porção alta da bacia. A elevação varia de 1826 metros na cabeceira bacia, até 709 metros no encontro com o Rio Araçuaí. A declividade predominante está entre valores 0 e 8%, no entanto há porções da bacia com declividade atingindo 45%. A porção alta e média da bacia está contida em uma área de proteção ambiental denominada APA Municipal Felício dos Santos, instituído pela lei  (municipal?) 502 de 27/03/03.
 
 ![](img/figura4.png)
 
@@ -49,24 +49,25 @@ A bacia está localizada na Serra do Espinhaço e apresenta um relevo suave ondu
 
 ### Bases de dados
 
-Este estudo foi realizado a partir de pesquisas bibliográficas, visita de campo, softwares de geoprocessamento, processamento de imagens de satélite e dados oficiais de órgãos federais e estaduais. Enumerando:
+Este estudo foi realizado a partir de pesquisas bibliográficas, visita de campo, softwares de geoprocessamento, softwares processamento digital de imagens de satélite e dados oficiais de órgãos federais e estaduais. Enumerando:
 
 - Software QGIS vesão 3.10 e plugins;
 - Software Google Earth Pro 7.3.2.5491, 64-bits;
 - Software Google Earth Engine;
-- Imagens Sentinel-2 e SRTM Global DEM;
-- Shapefile de drenagem da bacia do Rio São Francisco com escala de 1:100.000, obtido através da IDE-Sisema (Infraestrutura de Dados Espaciais do Sistema Estadual de Meio Ambiente e Recursos Hídricos);
-- Shapefile de ottobacias da bacia do Rio São Francisco, obtido no IDE-Sisema;
-- Shapefile dos municípios do Estado de Minas Gerais, obtido no IDE-Sisema;
-- Shapefile de Declaração de Áreas de Conflito (DAC) obtido no IDE-Sisema;
-- Shapefile de Unidades de Conservação obtido através da IDE-Sisema; 
-- Mapa geológico do Estado de Minas Gerais na escala de 1:100.000 da CODEMIG versão 2014;
-- Mapa de classes de solos do Brasil na escala de 1:5.000.000 da EMBRAPA/RADAM;
-- Relatório dos usuários de água e de Hidrografia da bacia do Ribeirão Santana obtido junto a SEMAD.
+- Imagens Sentinel-2A de XXXXXXXX
+- SRTM Global DEM resolução espacial XXXXX (não foi imagem Alos?);
+- Arquivo vetorial de drenagem da bacia do Rio São Francisco com escala de 1:100.000, obtido através da IDE-Sisema (Infraestrutura de Dados Espaciais do Sistema Estadual de Meio Ambiente e Recursos Hídricos);
+- Arquivo vetorial de ottobacias da bacia do Rio São Francisco, obtido no IDE-Sisema;
+- Arquivo vetorial dos municípios do Estado de Minas Gerais, obtido no IDE-Sisema;
+- Arquivo vetorial de Declaração de Áreas de Conflito (DAC) obtido no IDE-Sisema;
+- Arquivo vetorial de Unidades de Conservação obtido através da IDE-Sisema; 
+- Arquivo vetorial? do Mapa geológico do Estado de Minas Gerais na escala de 1:100.000 da CODEMIG versão 2014;
+- Arquivo vetorial? do Mapa de classes de solos do Brasil na escala de 1:5.000.000 da EMBRAPA/RADAM;
+- Relatório dos usuários de água e de Hidrografia da bacia do Ribeirão Santana obtidos junto à SEMAD.
 
 ### Unidades de paisagem
 
-As unidades de paisagem são inicialmente traçadas a partir dos mapas de solo, litologia, modelo digital de elevação e declividade. Em seguida, as unidades são validadas por meio de visitam em campo. A unidade de paisagem leva em consideração a especificidade local e seus componentes físicos (geologia, relevo e solos), bióticos (vegetação nativa) e socioeconômicos (atividades antrópicas). As unidades de paisagem foram identificadas preliminarmente cruzando as curvas de nível derivadas do modelo digital de elevação do SRTM e as imagens do Google Earth Pro. A interpretação da paisagem foi feita a partir da visualização 3D, com exagero vertical de 1,5. A caracterização de cada Unidade de Paisagem leva em consideração a morfologia, o embasamento geológico/pedológico, cobertura vegetal nativa original, uso atual e situação ambiental. Em seguida, por meio de visita a campo, a interpretação preliminar é refinada. A análise foi finalizada com a identificação, para cada unidade de paisagem, das potencialidades, limitações, fragilidades e aptidões para fins múltiplos.
+As unidades de paisagem são inicialmente traçadas a partir dos mapas de solo, litologia, modelo digital de elevação e declividade. Em seguida, as unidades são validadas por meio de visitas em campo. A unidade de paisagem leva em consideração a especificidade local e seus componentes físicos (geologia, relevo e solos), bióticos (vegetação nativa) e socioeconômicos (atividades antrópicas). As unidades de paisagem foram identificadas preliminarmente cruzando as curvas de nível derivadas do modelo digital de elevação do SRTM e as imagens do Google Earth Pro. A interpretação da paisagem foi feita a partir da visualização 3D, com exagero vertical de 1,5. A caracterização de cada Unidade de Paisagem leva em consideração a morfologia, o embasamento geológico/pedológico, cobertura vegetal nativa original, uso atual e situação ambiental. Em seguida, por meio de visita a campo, a interpretação preliminar é refinada. A análise foi finalizada com a identificação, para cada unidade de paisagem, das potencialidades, limitações, fragilidades e aptidões para fins múltiplos.
 
 ![](img/figura11.png)
 
@@ -74,13 +75,13 @@ As unidades de paisagem são inicialmente traçadas a partir dos mapas de solo, 
 
 O diagnóstico da disponibilidade hídrica se baseia nos dados de outorgas disponibilizados pelo Instituto Mineiro de Gestão das Águas (IGAM) e pela Secretaria de Estado de Meio Ambiente e Desenvolvimento Sustentável de Minas Gerais (SEMAD). Foi determinado o código indentificador do curso d’água principal da bacia, no caso, Ribeirão Santama, com a base ottocodificada do IGAM. A hidrografia com os dados de regionalização de vazão para os cálculos necessários ao diagnóstico foi obtida no IDE-Sisema e as informações de outorgas e cadastro de uso insignificante solicitadas à SEMAD, nos termos do anexo III da metodologia ZAP.
 
-Após a delimitação da bacia e de sua hidrografia, os dados de outorga e cadastro de uso insignificante foram consistidos e plotados seguindo a metodologia ZAP. Apenas usuários de água superficial são contemplados neste estudo de disponibilidade hídrica. Todos os usuários que apresentam status de “Cadastro Efetivado”, “Outorga Deferida, Renovada e Retificada” e processos com vencimento posterior a março de 2018 foram incluídos.
+Após a delimitação da bacia e de sua hidrografia, os dados de outorga e cadastro de uso insignificante foram consistidos(?) e plotados seguindo a metodologia ZAP. Apenas usuários de água superficial são contemplados neste estudo de disponibilidade hídrica. Todos os usuários que apresentam status de “Cadastro Efetivado”, “Outorga Deferida, Renovada e Retificada” e processos com vencimento posterior a março de 2018 foram incluídos.
 
 Após a consolidação da camada, os cálculos para todos os subprodutos da disponibilidade hídrica foram computados e os mapas finais elaborados. Os cálculos incluiram a disponibilidade hídrica de cada trecho e o comprometimento hídrico de cada trecho. A situação da disponibilidade hídrica foi classificada de acordo com o comprometimento de cada segmento em 'indisponível', 'estado de atenção' e 'disponível'.
 
 ### Uso e ocupação do solo
 
-O mapeamento do uso e ocupação do solo foi elaborado a partir do processamento de imagens de satélite, vetorização manual e observações em campo. O mapeamento foi realizado em duas etapas. Na primeira, as bandas 2, 3, 4 e 8 do Sentinel-2 com resolução espacial de 10 metros foram classificadas em 4 grupos de forma automatizada usando metodologia classificação supervisionada. No segundo momento, a classificação foi refinada utilizando as ferramentas de digitalização avançada do QGis e as imagens do Google Satélite para refinar a interpretação visual das feições. Foram considerandos os seguintes usos do solo:
+O mapeamento do uso e ocupação do solo foi elaborado a partir do processamento de imagens de satélite e ediçao manual, consistindo em duas etapas.  Na primeira, as bandas 2, 3, 4 e 8 do Sentinel-2A com resolução espacial de 10 metros, adquiridas com a data do dia 25/06/2020, foram mosaicadas para cobrir toda a área da bacia. Em seguida, foram geradas em 4 classes básicas (vegetação arbórea, arbustiva e campestre e áreas sem vegetação) de forma automatizada por meio de uma classificação supervisionada pixel a pixel e vetorizadas para permitir as edições. Na segunda etapa, a classificação foi editada manualmente com as ferramentas de digitalização avançada do QGIS, utilizando como base as observações em campo e imagens do Google Satélite, para refinar o resultado da classificação. Foram considerandos os seguintes usos do solo:
 
 - Agricultura
 - Pastagem
@@ -92,7 +93,7 @@ O mapeamento do uso e ocupação do solo foi elaborado a partir do processamento
 - Floresta plantada (silvicultura)
 - Área urbana
 
-A bacia apresenta inúmeros represamentos, de área inferior a 1 hectare, espalhados por toda a área. Na região central, observa-se um agrupamento de represamentos, provavelmente relacionados à psicultura. Para efeito de uso do solo eles foram vetorizados em conjunto, mas não foram considerados para desenho da área de preservação permanente, por se tratarem, na prática, de múltiplos pequenos reservatórios.
+A bacia apresenta inúmeros represamentos de área inferiores a 1 hectare, espalhados por toda a área, principalmente na porção centro-norte. Na região central, observa-se um agrupamento de represamentos, provavelmente relacionados à psicultura. Para efeito de uso do solo eles foram vetorizados em conjunto, mas não foram considerados para desenho da área de preservação permanente, por se tratarem, na prática, de múltiplos pequenos reservatórios.
 
 ## Diagnóstico e análise ambiental da bacia
 
@@ -238,7 +239,7 @@ Nove unidades de paisagem foram identificadas na bacia do Ribeirão Santana: afl
 
 #### Afloramento
 
-Ocorrência: Porção sul da bacia; grande distribuição areal; vincula-se à quartzitos do Supergrupo Espinhaço; Região mais elevada (cotas entre 1740 a 900m). Limita-se com as Vertentes Ravinadas e contém Vales Encaixados;	De escarpas a rampas rochosas, com mergulho preferencial para Leste que condicionam uma hidrografia local dos tipos Subsequentes (determinados por zonas de fraquezas) e consequentes condicionados pelo mergulho da camada litológica.
+Ocorrência: Porção sul da bacia; grande distribuição areal; vincula-se à quartzitos do Supergrupo Espinhaço; Região mais elevada (cotas entre 1740 a 900m). Limita-se com as Vertentes Ravinadas e contém Vales Encaixados;	de escarpas a rampas rochosas, com mergulho preferencial para Leste que condicionam uma hidrografia local dos tipos Subsequentes (determinados por zonas de fraquezas) e consequentes condicionados pelo mergulho da camada litológica.
 
 Relevo: Expressiva área com declividade predominante acima de 45% podendo nas porções mais cimeiras e/ou mais dissecadas apresentar declividade superior a 75%.	
 
@@ -416,9 +417,9 @@ Aptidões:
 
 #### Vertentes ravinadas	
 
-Ocorrência: Alta representatividade areal; porção central (eixo NW-SE) da bacia; ocorrência em quartzitos sericíticos do Grupo Macaúbas;Limita-se com as unidades: Superfícies Tabulares; Complexo Côncavo-Convexo; Afloramentos de Quartzitos, Terraços e Planícies Fluviais e Vale encaixado.
+Ocorrência: Alta representatividade areal; porção central (eixo NW-SE) da bacia; ocorrência em quartzitos sericíticos do Grupo Macaúbas; Limita-se com as unidades: Superfícies Tabulares; Complexo Côncavo-Convexo; Afloramentos de Quartzitos, Terraços e Planícies Fluviais e Vale encaixado.
 
-Relevo: Assemelham-se as vertentes do Complexo Côncavo-Convexo, porém as os processos da erosão pluvial são marcantes.
+Relevo: Assemelham-se as vertentes do Complexo Côncavo-Convexo, porém os processos da erosão pluvial são marcantes.
 
 Tipo de solo: Cambissolo e Neossolo Litólico
 
@@ -510,7 +511,7 @@ Obs: Qmld = Vazão média de longo período; Q7,10 = Vazão de referência;  Q o
 
 ### Uso e ocupação do solo
 
-A partir da imagem Sentinel-2 foram identificadas 9 (nove) classes relevantes de uso e ocupação na bacia do Ribeirão Santana, sendo elas em ordem de representatividade: Vegetação Nativa, Pastagem, Afloramanto Rochoso, Área Urbana, Floresta Plantada, Agricultura, Solo Exposto, Benfeitorias, Represas. As classes identificadas no estudo estão de acordo com a metodologia ZAP oficial. 
+A partir da imagem Sentinel-2A foram identificadas 9 (nove) classes relevantes de uso e ocupação na bacia do Ribeirão Santana, sendo elas em ordem de representatividade: Vegetação Nativa, Pastagem, Afloramanto Rochoso, Área Urbana, Floresta Plantada, Agricultura, Solo Exposto, Benfeitorias, Represas. As classes identificadas no estudo estão de acordo com a metodologia ZAP oficial. 
 
 | Uso do Solo       | representatividade (%) |
 |-------------------|------------------------|
